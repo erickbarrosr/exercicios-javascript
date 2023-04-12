@@ -4,9 +4,9 @@ Em seguida, imprima as informações na tela. */
 
 const prompt = require("prompt-sync")();
 
-const fullName = prompt("Digite seu nome completo: ");
-const age = prompt("Digite a sua idade: ");
-const registrationNumber = prompt("Digite a sua matrícula: ");
+let fullName = prompt("Digite seu nome completo: ");
+let age = prompt("Digite a sua idade: ");
+let registrationNumber = prompt("Digite a sua matrícula: ");
 
 console.log("NOME: ", fullName);
 console.log("IDADE: ", age);
