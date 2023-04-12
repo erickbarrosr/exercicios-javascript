@@ -1,3 +1,6 @@
+/* Crie um código que solicite ao usuário digitar três números.
+Em seguida, apresente o resultado da soma, subtração, multiplicação dos três. */
+
 const prompt = require("prompt-sync")();
 
 const n1 = Number(prompt("Digite um número: "));

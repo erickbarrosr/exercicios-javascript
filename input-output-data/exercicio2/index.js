@@ -1,3 +1,7 @@
+/* Desenvolva uma programa que irá salvar o dado de 2 jogadores de futebol.
+Peça o usuário que digite o nome dos jogares e seus respectivos clubes.
+Em seguida, imprima as informações na tela. */
+
 const prompt = require("prompt-sync")();
 
 const player1 = prompt("Nome do jogador 1 é? ");
